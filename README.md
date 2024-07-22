@@ -7,3 +7,6 @@
 
 - **Buoi4:** <br>
 ![image](https://github.com/user-attachments/assets/72751a2a-f869-412f-80f7-1fdb2ce7ebd3)
+
+- **Buoi5:** <br>
+![image](https://github.com/user-attachments/assets/05cc5930-eef4-4ffd-b513-14e49d72275c)
