@@ -10,3 +10,6 @@
 
 - **Buoi5:** <br>
 ![image](https://github.com/user-attachments/assets/05cc5930-eef4-4ffd-b513-14e49d72275c)
+
+- **Buoi6:** <br>
+![image](https://github.com/user-attachments/assets/e0226f92-2fc1-40d6-93e0-7bea1fdc0a66)
