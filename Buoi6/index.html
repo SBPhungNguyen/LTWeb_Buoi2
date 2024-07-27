@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="view">View</button>
+        <button class="filter-btn" data-category="animal">Animal</button>
+        <button class="filter-btn" data-category="people">People</button>
+        <input type="text" id="search-input" placeholder="Search by title...">
+    </nav>
+
+    <div class="gallery" id="gallery">
+        <div class="gallery-item view" data-title="Beautiful Mountain">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.gwUjoYO8aGuy0zLAeMoJpwHaFb&pid=Api&P=0&h=220" alt="Beautiful Mountain">
+            <p>Beautiful Mountain</p>
+        </div>
+        <div class="gallery-item view" data-title="Sunset Beach">
+            <img src="http://wallpapercave.com/wp/MAZM4pd.jpg" alt="Sunset Beach">
+            <p>Sunset Beach</p>
+        </div>
+        <div class="gallery-item animal" data-title="Cute Puppy">
+            <img src="https://4.bp.blogspot.com/-Nu7jeZ8IhJw/T6TJRX5koEI/AAAAAAAAEf8/8DgFdwhM-pk/s1600/Cute-Puppy-puppies-wallpapers-08.jpg" alt="Cute Puppy">
+            <p>Cute Puppy</p>
+        </div>
+        <div class="gallery-item animal" data-title="Wild Tiger">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.JPsVRsbiK_5vXuY9njfVlQHaFj&pid=Api&P=0&h=220" alt="Wild Tiger">
+            <p>Wild Tiger</p>
+        </div>
+        <div class="gallery-item people" data-title="Smiling Kid">
+            <img src="https://www.eyalliance.org.uk/sites/default/files/children_smiling_copy.jpg" alt="Smiling Kid">
+            <p>Smiling Kid</p>
+        </div>
+        <div class="gallery-item people" data-title="Happy Family">
+            <img src="https://ghci.us/wp-content/uploads/2017/09/bigstock-Happy-family-81162806.jpg" alt="Happy Family">
+            <p>Happy Family</p>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close" id="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
